@@ -3,8 +3,6 @@ package com.vondear.tools.activity;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.widget.ImageView;
-import android.widget.RelativeLayout;
 
 import com.jaredrummler.android.widget.AnimatedSvgView;
 import com.vondear.rxtools.RxActivityUtils;
@@ -20,11 +18,6 @@ public class ActivitySVG extends ActivityBase {
 
     @BindView(R.id.animated_svg_view)
     AnimatedSvgView mSvgView;
-    @BindView(R.id.activity_svg)
-    RelativeLayout mActivitySvg;
-    @BindView(R.id.app_name)
-    ImageView mAppName;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

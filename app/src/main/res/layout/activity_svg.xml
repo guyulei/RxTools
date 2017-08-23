@@ -40,14 +40,6 @@
             app:animatedSvgTraceTime="2000"
             app:animatedSvgTraceTimePerGlyph="1000"/>
 
-        <ImageView
-            android:id="@+id/app_name"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:src="@drawable/logo"
-            android:visibility="gone"/>
-
 
     </LinearLayout>
 
